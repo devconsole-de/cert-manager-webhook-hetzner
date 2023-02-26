@@ -14,7 +14,6 @@ certManager:
 
 image:
   repository: devconsole/cert-manager-webhook-hetzner
-  tag: 1.8.2
   pullPolicy: IfNotPresent
 
 nameOverride: ""
