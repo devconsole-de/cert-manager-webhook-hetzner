@@ -1,5 +1,6 @@
-FROM golang:1.18-alpine AS build_deps
+FROM golang:1.19-alpine AS build_deps
 
+RUN apk update && apk upgrade --no-cache
 RUN apk add --no-cache git
 
 WORKDIR /workspace
