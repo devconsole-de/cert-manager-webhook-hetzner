@@ -7,7 +7,7 @@ go 1.19
 require (
 	github.com/cert-manager/cert-manager v1.10.2
 	k8s.io/apiextensions-apiserver v0.26.0
-	k8s.io/apimachinery v0.26.0
+	k8s.io/apimachinery v0.26.1
 	k8s.io/client-go v0.26.0
 	k8s.io/klog v1.0.0
 )
