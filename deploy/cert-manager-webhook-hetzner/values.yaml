@@ -10,11 +10,10 @@ groupName: acme.yourdomain.tld
 
 certManager:
   namespace: cert-manager
-  serviceAccountName: cert-manager
+  serviceAccountName: cert-manager-webhook
 
 image:
   repository: devconsole/cert-manager-webhook-hetzner
-  tag: 1.8.2
   pullPolicy: IfNotPresent
 
 nameOverride: ""
@@ -44,3 +43,13 @@ nodeSelector: {}
 tolerations: []
 
 affinity: {}
+
+securityContext:
+  allowPrivilegeEscalation: false
+  capabilities:
+    drop: ["ALL"]
+
+podSecurityContext:
+  runAsGroup: 1000
+  runAsUser: 1000
+  runAsNonRoot: true
