@@ -3,7 +3,7 @@ module github.com/devconsole-de/cert-manager-webhook-hetzner
 go 1.20
 
 require (
-	github.com/cert-manager/cert-manager v1.12.3
+	github.com/cert-manager/cert-manager v1.12.4
 	k8s.io/apiextensions-apiserver v0.27.4
 	k8s.io/apimachinery v0.27.4
 	k8s.io/client-go v0.27.4
