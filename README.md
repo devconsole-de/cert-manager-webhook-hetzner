@@ -6,7 +6,7 @@ This solver can be used when you want to use cert-manager with Hetzner DNS API. 
 -   [go](https://golang.org/) >= 1.20.0
 -   [helm](https://helm.sh/) >= v3.0.0
 -   [kubernetes](https://kubernetes.io/) >= v1.27.0
--   [cert-manager](https://cert-manager.io/) >= 1.12.3
+-   [cert-manager](https://cert-manager.io/) >= 1.12.4
 
 ## Installation
 
